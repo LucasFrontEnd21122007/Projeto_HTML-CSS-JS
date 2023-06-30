@@ -1,0 +1,4 @@
+document.getElementById('btnGreet').addEventListener('click', function() {
+    var outputElement = document.getElementById('output');
+    outputElement.textContent = 'Olá! Como vai?';
+});
