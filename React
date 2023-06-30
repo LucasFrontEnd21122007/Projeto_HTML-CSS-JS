@@ -1,0 +1,18 @@
+/** @jsx jsx */
+import { jsx, css } from '@emotion/react';
+
+const customStyle = css`
+    font-weight: bold;
+    margin-top: 10px;
+`;
+
+const Greeting = () => {
+    return (
+        <div css={customStyle}>
+            <p>Esta é uma saudação personalizada:</p>
+            <p>{'Olá! Tudo bem?'}</p>
+        </div>
+    );
+};
+
+export default Greeting;
